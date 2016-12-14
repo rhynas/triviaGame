@@ -74,7 +74,7 @@ var questions = [
    choices: ["Database Administrator", "Program Analyst", "Software Architect", "Information Technology Manager"],
    correctAnswer : 2,
    image : "assets/images/q12-best-job.png",
-   fact : "n the same way an architect designs a house, software architects lay out a design plan for new programs. That usually means leading a team of developers and engineers, and making sure all the pieces come together to make fully-functioning software." 
+   fact : "The same way an architect designs a house, software architects lay out a design plan for new programs. That usually means leading a team of developers and engineers, and making sure all the pieces come together to make fully-functioning software." 
   },    
   {question: "What was the first song ever sung by a computer?",
    choices: ["Mary Had a Little Lamb", "Daisy Bell", "Twinkle Twinkle Little Star", "Happy Birthday"],
@@ -141,7 +141,7 @@ function showChoices(){
 }
 
 function showFacts(){
-  return("<p>Fact: <br>" + questions[globalIndex].fact + "</p>")
+  return("<p>" + questions[globalIndex].fact + "</p>")
 }
 
 function showImage(){

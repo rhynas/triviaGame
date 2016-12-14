@@ -18,7 +18,7 @@ h2{
 	color: #9a2672;
 }
 .cImage{
-	width:90%;
+	width:70%;
 	height:auto;
 	max-width:MaxSize;
 	max-height:MaxSize;
@@ -70,19 +70,17 @@ h2{
 
 
 #dFact, p{
-	font-size: 14px;
-	text-align: justify;;
-
-	/*position: absolute;*/
+	font-size: 15px;
+	padding: 20px;
 }
 
 p{
-	font-size: 20px;
-	font-weight: bold;
+	font-size: 18px;
+
 
 }
 #dQuestion{
-	padding-top: 15px;
+	padding-top: 18px;
 	padding-bottom: 15px
 }
 
@@ -90,6 +88,6 @@ p{
 	padding-top: 15px;
 	font-family: 'Passero One', cursive;
 	font-size: 25px;
-
+	font-weight: bold;
 
 }
